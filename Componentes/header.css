@@ -13,6 +13,7 @@ header{
     border-radius: 50px;
 }
 header a{
+    text-decoration: none;
     margin: 1.5% 0 1.5% 0;
 
     font-size: x-large;

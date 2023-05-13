@@ -1,0 +1,16 @@
+.sobre-mim{
+    height: auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 4% 0 4% 0;
+
+    align-items: center;
+    justify-content: center;
+}
+.sobre-mim img{
+    height: 20%;
+    width: 20%;
+}

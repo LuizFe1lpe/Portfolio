@@ -6,7 +6,9 @@
 @import url(Classes/container.css);
 @import url(Classes/matte.css);
 @import url(Classes/primeiroitem.css);
+@import url(Classes/programas.css);
 @import url(Classes/sobre.css);
+@import url(Classes/sobre-mim.css);
 
 @import url(Componentes/body.css);
 @import url(Componentes/footer.css);
@@ -20,4 +22,12 @@
     --branco: #F3F4FE;
     --preto: #151319;
     --cinza: #dcdde6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:target{
+    scroll-margin-top:  .8em;
 }

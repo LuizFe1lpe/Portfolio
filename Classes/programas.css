@@ -1,0 +1,18 @@
+.programas{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-content: center;
+
+    width: 50%;
+    height: auto;
+
+    border-radius: 50px;
+
+    margin: 2% auto 2% auto;
+}
+.programas img{
+    height: 60px;
+    width: 60px;
+}
