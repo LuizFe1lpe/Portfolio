@@ -12,3 +12,9 @@ footer{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+@media screen and (max-width: 600px){   
+    footer{
+        width: 60vw;
+        margin: 8% auto auto auto;
+    }
+}

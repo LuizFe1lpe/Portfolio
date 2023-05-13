@@ -17,3 +17,13 @@
     height: auto;
     width: 30%;
 }
+@media screen and (max-width: 600px){   
+    .sobre{
+        width: 60vw;
+    }
+    .sobre p{
+        text-align: center;
+        font-size: large;
+        margin: 4% 0 4% 0;
+    }
+}

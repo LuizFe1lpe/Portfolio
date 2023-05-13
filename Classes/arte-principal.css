@@ -11,3 +11,9 @@
     object-fit: cover;
     object-position: 0 40%;
 }
+@media screen and (max-width: 600px){ 
+    .arte-principal img{
+        height: auto;
+        object-fit: scale-down;
+    }
+}

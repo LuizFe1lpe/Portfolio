@@ -1,6 +1,11 @@
 .primeiroitem{
     margin: 25px 0 1% 0;
     color: darkgray;
-
+    
     font-size: larger;
+}
+@media screen and (max-width: 600px){   
+    .primeiroitem{
+        font-size: medium;
+    }
 }

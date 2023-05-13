@@ -18,3 +18,15 @@ main h1{
 main h2{
     font-size: large;
 }
+@media screen and (max-width: 600px){
+    main{
+        width: 60vw;
+        margin: 6% auto 3% auto;
+    }
+    main h1{
+        font-size: 10vw;
+    }
+    main h2{
+        font-size: medium;
+    }
+}

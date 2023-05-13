@@ -8,9 +8,20 @@
     margin: 4% 0 4% 0;
 
     align-items: center;
+    align-self: center;
     justify-content: center;
 }
 .sobre-mim img{
     height: 20%;
     width: 20%;
+}
+@media screen and (max-width: 600px){   
+    .sobre-mim{
+        flex-direction: column;
+        width: 60vw;
+    }
+    .sobre-mim img{
+        height: 40vw;
+        width: 40vw;
+    }
 }
