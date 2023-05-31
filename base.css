@@ -31,3 +31,8 @@ html{
 :target{
     scroll-margin-top:  .8em;
 }
+@media screen and (min-width: 600px){
+    body{
+        min-width: 600px;
+    }
+}
